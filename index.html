@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=StyleSheet href="style/estilos-copy.css" type="text/css">
+</head>
+<body>
+    <div id="calculadora">
+        <span id="marca">Lauriki - Casio ®</span>
+        <input type="text" name="display" id="pantalla" readonly="readonly" class="pantalla">
+        <div id="botones">
+            <div id="botonesCientifica">
+                <div id="fila">
+                    <button id="raiz" value="raiz">²√</button>
+                    <button id="elevado" value="elevado">x<sup id="sup">y</sup></button>
+                    <button id="mod" value="modulo">mod</button>
+                    <button id="PI" value="PI">π</button>
+                </div> 
+                <div id="fila">                    
+                    <button id="hyp" value="hyp">hyp</button>                   
+                    <button id="acosh" value="acosh">acosh</button>
+                    <button id="asinh" value="asinh">asinh</button>
+                    <button id="e" value="e">e</button>
+                </div> 
+                <div id="fila">
+                    <button id="tan" value="tan">tan</button>
+                    <button id="cos" value="cos">cos</button>                    
+                    <button id="sin" value="sin">sin</button>
+                    <button id="log" value="log">ln</button>
+                </div> 
+            </div>
+            <div id="botonesNormales">
+                <div id="fila">
+                    <button id="cientifica"  class="boton">&nbsp;</button>
+                    <button id="btnCE" value="ce" class="boton">CE</button>
+                    <button id="btnC" value="c" class="boton" >C</button>
+                    <button id="btnDividir" value="/" class="boton">÷</button>
+                </div>
+                <div id="fila">
+                    <button id="btnSiete" value="7"  class="boton">7</button>
+                    <button id="btnOcho" value="8" class="boton">8</button>
+                    <button id="btnNueve" value="9" class="boton">9</button>
+                    <button id="btnMultiplicar" value="x" class="boton">x</button>
+                </div>
+                <div id="fila">
+                    <button id="btnCuatro" value="4" class="boton">4</button>
+                    <button id="btnCinco" value="5" class="boton">5</button>
+                    <button id="btnSeis" value="6" class="boton">6</button>
+                    <button id="btnRestar" value="-" class="boton">-</button>
+                </div>
+                <div id="fila">
+                    <button id="btnUno" value="1" class="boton">1</button>
+                    <button id="btnDos" value="2" class="boton">2</button>
+                    <button id="btnTres" value="3" class="boton">3</button>
+                    <button id="btnSumar" value="+" class="boton">+</button>
+                </div>
+                <div id="fila">
+                    <button id="btnMasMenos"  class="boton">+/-</button>
+                    <button id="btnCero" value="0" class="boton">0</button>
+                    <button id="btnPunto" value="," class="boton">.</button>
+                    <button id="btnIgual" value="=" class="boton">=</button>
+                </div>
+            </div>
+            
+        </div>
+        <script src="js/botones.js"></script>
+        <script src="js/funcionalidad.js"></script>
+        <script src="js/clase.js"></script>
+    </div>
+</body>
+</html>
